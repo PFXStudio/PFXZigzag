@@ -22,8 +22,12 @@ class PFXZigzagTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let value = flatten_tree()
-        value.accessibilityActivate()
+        let value1 = alter_date_format()
+        let value2 = bowling_score_calculator()
+        let value3 = flatten_tree()
+        value1.accessibilityActivate()
+        value2.accessibilityActivate()
+        value3.accessibilityActivate()
     }
 
     func testPerformanceExample() {

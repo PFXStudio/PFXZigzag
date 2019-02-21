@@ -108,8 +108,8 @@
 		6DA59F00221EA479004C7B8D /* PFXZigzag */ = {
 			isa = PBXGroup;
 			children = (
+				6DA59F41221ECACD004C7B8D /* HomeWork2 */,
 				6DA59F3A221EA69E004C7B8D /* Resources */,
-				6DA59F33221EA4C4004C7B8D /* HomeWork2 */,
 				6DA59F01221EA479004C7B8D /* AppDelegate.swift */,
 				6DA59F03221EA479004C7B8D /* ViewController.swift */,
 				6DA59F05221EA479004C7B8D /* Main.storyboard */,
@@ -150,19 +150,19 @@
 			path = HomeWork1;
 			sourceTree = "<group>";
 		};
-		6DA59F33221EA4C4004C7B8D /* HomeWork2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HomeWork2;
-			sourceTree = "<group>";
-		};
 		6DA59F3A221EA69E004C7B8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				6DA59F3B221EA6AF004C7B8D /* categories.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DA59F41221ECACD004C7B8D /* HomeWork2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeWork2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
