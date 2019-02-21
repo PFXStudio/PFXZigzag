@@ -1,0 +1,6 @@
+framework module Pods_PFXZigzag {
+  umbrella header "Pods-PFXZigzag-umbrella.h"
+
+  export *
+  module * { export * }
+}

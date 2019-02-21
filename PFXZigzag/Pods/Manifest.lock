@@ -1,0 +1,16 @@
+PODS:
+  - SwiftProgressHUD (0.0.7)
+
+DEPENDENCIES:
+  - SwiftProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftProgressHUD
+
+SPEC CHECKSUMS:
+  SwiftProgressHUD: 27d2a9fb4e9f356dbbbfd98477916652cc9b7ac1
+
+PODFILE CHECKSUM: 81aa517f6fa0ed85ddbd3c3233be71db71c02404
+
+COCOAPODS: 1.5.3
