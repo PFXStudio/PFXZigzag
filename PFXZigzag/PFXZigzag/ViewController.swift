@@ -37,7 +37,10 @@ class ViewController: UIViewController {
     
     override func viewWillLayoutSubviews() {
         self.loadingIndicatorView.isHidden = true
-        self.updateAutoLoginLegalViews()
+
+        let frame = self.legalButton.frame
+        let edge = self.legalButton.imageEdgeInsets
+        self.legalButton.imageEdgeInsets = UIEdgeInsets(top: edge.top, left: frame.width - 44, bottom: edge.bottom, right: edge.right)
     }
     
     func updateAutoLoginLegalViews() {
@@ -53,10 +56,6 @@ class ViewController: UIViewController {
             return
         }
         
-        let frame = self.legalButton.frame
-        let edge = self.legalButton.imageEdgeInsets
-        self.legalButton.imageEdgeInsets = UIEdgeInsets(top: edge.top, left: frame.width - kButtonHeight, bottom: edge.bottom, right: edge.right)
-
         UIView.animate(withDuration: kAnimationDuration) {
             self.autoLoginLegalButtonHeightLayoutConstraint.constant = 0
             self.legalButtonHeightLayoutConstraint.constant = kButtonHeight

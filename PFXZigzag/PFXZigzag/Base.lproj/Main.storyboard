@@ -67,7 +67,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="thM-RZ-vxY" userLabel="accountView">
-                                                <rect key="frame" x="0.0" y="460" width="375" height="100"/>
+                                                <rect key="frame" x="0.0" y="504" width="375" height="100"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="zigzag" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NIV-Ls-7ut">
                                                         <rect key="frame" x="50" y="8" width="317" height="30"/>
@@ -111,7 +111,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1E-dJ-b1Q" userLabel="legalButton">
-                                                <rect key="frame" x="0.0" y="560" width="375" height="44"/>
+                                                <rect key="frame" x="0.0" y="604" width="375" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="B28-4O-rGK"/>
                                                 </constraints>
@@ -130,7 +130,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5d-fh-VkC" userLabel="loginButton">
-                                                <rect key="frame" x="0.0" y="604" width="375" height="44"/>
+                                                <rect key="frame" x="0.0" y="648" width="375" height="44"/>
                                                 <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="i96-f2-dur"/>
@@ -143,14 +143,14 @@
                                                 </connections>
                                             </button>
                                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ypM-4d-Xv9">
-                                                <rect key="frame" x="169" y="608" width="37" height="37"/>
+                                                <rect key="frame" x="169" y="652" width="37" height="37"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="37" id="uW0-zq-wd7"/>
                                                     <constraint firstAttribute="height" constant="37" id="wSy-iR-tKR"/>
                                                 </constraints>
                                             </activityIndicatorView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rx0-eD-ghL" userLabel="findButton">
-                                                <rect key="frame" x="0.0" y="648" width="375" height="44"/>
+                                                <rect key="frame" x="0.0" y="692" width="375" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="sTk-aV-9bM"/>
                                                 </constraints>
@@ -162,10 +162,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uke-ga-ebo" userLabel="autoLoginLegalButton">
-                                                <rect key="frame" x="0.0" y="692" width="375" height="44"/>
+                                                <rect key="frame" x="0.0" y="736" width="375" height="0.0"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="44" id="sPk-yz-gT2"/>
+                                                    <constraint firstAttribute="height" id="sPk-yz-gT2"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
