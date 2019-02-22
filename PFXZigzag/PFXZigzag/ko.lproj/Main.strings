@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "주문하신 상품의 계정으로 로그인하시면 배송 정보를 실시간으로 볼 수 있어요."; ObjectID = "35M-jr-uPD"; */
+"35M-jr-uPD.text" = "주문하신 상품의 계정으로 로그인하시면 배송 정보를 실시간으로 볼 수 있어요.";
+
+/* Class = "UIButton"; normalTitle = "아이디 & 비밀번호 찾기"; ObjectID = "3bG-de-v0M"; */
+"3bG-de-v0M.normalTitle" = "아이디 & 비밀번호 찾기";
+
+/* Class = "UIButton"; normalTitle = "자동 로그인 연결 약관"; ObjectID = "4oY-Vf-e3U"; */
+"4oY-Vf-e3U.normalTitle" = "자동 로그인 연결 약관";
+
+/* Class = "UILabel"; text = "꽃피는시절 비회원 주문 및 SNS 계정(페이스북/네이버 등)으로 로그인 하여 주문하신 경우, '주문 페이지 바로가기'를 이용해 주세요."; ObjectID = "5hV-i7-bTk"; */
+"5hV-i7-bTk.text" = "꽃피는시절 비회원 주문 및 SNS 계정(페이스북/네이버 등)으로 로그인 하여 주문하신 경우, '주문 페이지 바로가기'를 이용해 주세요.";
+
+/* Class = "UIButton"; normalTitle = "자동"; ObjectID = "LPu-gI-b7Y"; */
+"LPu-gI-b7Y.normalTitle" = "자동";
+
+/* Class = "UITextField"; text = "zigzag"; ObjectID = "NIV-Ls-7ut"; */
+"NIV-Ls-7ut.text" = "zigzag";
+
+/* Class = "UIButton"; normalTitle = "아이디 & 비밀번호 찾기"; ObjectID = "Rx0-eD-ghL"; */
+"Rx0-eD-ghL.normalTitle" = "아이디 & 비밀번호 찾기";
+
+/* Class = "UIButton"; normalTitle = "자동 로그인 약관에 동의"; ObjectID = "T1E-dJ-b1Q"; */
+"T1E-dJ-b1Q.normalTitle" = "자동 로그인 약관에 동의";
+
+/* Class = "UIButton"; normalTitle = "자동 로그인 연결 약관"; ObjectID = "Uke-ga-ebo"; */
+"Uke-ga-ebo.normalTitle" = "자동 로그인 연결 약관";
+
+/* Class = "UIButton"; normalTitle = "동의"; ObjectID = "VIz-lf-dyD"; */
+"VIz-lf-dyD.normalTitle" = "동의";
+
+/* Class = "UIButton"; normalTitle = "아이디 찾기"; ObjectID = "Wsa-zJ-4TV"; */
+"Wsa-zJ-4TV.normalTitle" = "아이디 찾기";
+
+/* Class = "UIButton"; normalTitle = "로그인"; ObjectID = "Y5d-fh-VkC"; */
+"Y5d-fh-VkC.normalTitle" = "로그인";
+
+/* Class = "UILabel"; text = "descLabel"; ObjectID = "Zbe-YG-Pbs"; */
+"Zbe-YG-Pbs.text" = "descLabel";
+
+/* Class = "UIButton"; normalTitle = "자동 로그인 약관에 동의"; ObjectID = "b9F-pk-2IA"; */
+"b9F-pk-2IA.normalTitle" = "자동 로그인 약관에 동의";
+
+/* Class = "UILabel"; text = "StatusLabel"; ObjectID = "bpb-1L-UgW"; */
+"bpb-1L-UgW.text" = "StatusLabel";
+
+/* Class = "UIButton"; normalTitle = "로그인"; ObjectID = "du6-eF-9de"; */
+"du6-eF-9de.normalTitle" = "로그인";
+
+/* Class = "UINavigationItem"; title = "로그인(꽃피는시절)"; ObjectID = "heh-Sh-yn3"; */
+"heh-Sh-yn3.title" = "로그인(꽃피는시절)";
+
+/* Class = "UITextField"; text = "zigzag"; ObjectID = "jnl-pR-0dC"; */
+"jnl-pR-0dC.text" = "zigzag";
+
+/* Class = "UILabel"; text = "descLabel"; ObjectID = "nqZ-ZS-aOS"; */
+"nqZ-ZS-aOS.text" = "descLabel";
+
+/* Class = "UIButton"; normalTitle = "로그인"; ObjectID = "nrB-n3-cPk"; */
+"nrB-n3-cPk.normalTitle" = "로그인";
+
+/* Class = "UILabel"; text = "StatusLabel"; ObjectID = "sHD-rT-yDX"; */
+"sHD-rT-yDX.text" = "StatusLabel";
