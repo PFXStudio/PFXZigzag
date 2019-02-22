@@ -135,12 +135,10 @@
 		6DA59F00221EA479004C7B8D /* PFXZigzag */ = {
 			isa = PBXGroup;
 			children = (
-				6DA59F41221ECACD004C7B8D /* HomeWork2 */,
 				6DA59F3A221EA69E004C7B8D /* Resources */,
 				6DA59F01221EA479004C7B8D /* AppDelegate.swift */,
 				6DA59F03221EA479004C7B8D /* ViewController.swift */,
 				6DA59F05221EA479004C7B8D /* Main.storyboard */,
-				6DA59F0B221EA47A004C7B8D /* Assets.xcassets */,
 				6DA59F0D221EA47A004C7B8D /* LaunchScreen.storyboard */,
 				6DA59F10221EA47A004C7B8D /* Info.plist */,
 				6DA59F08221EA479004C7B8D /* PFXZigzag.xcdatamodeld */,
@@ -180,16 +178,10 @@
 		6DA59F3A221EA69E004C7B8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6DA59F3B221EA6AF004C7B8D /* categories.json */,
+				D246332E221F792E002C3F20 /* jsons */,
+				D246332D221F7928002C3F20 /* images */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		6DA59F41221ECACD004C7B8D /* HomeWork2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HomeWork2;
 			sourceTree = "<group>";
 		};
 		B056838285E15D07D8E0E582 /* Pods */ = {
@@ -203,6 +195,22 @@
 				06A55CBACFB16B081424F009 /* Pods-PFXZigzagUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D246332D221F7928002C3F20 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6DA59F0B221EA47A004C7B8D /* Assets.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D246332E221F792E002C3F20 /* jsons */ = {
+			isa = PBXGroup;
+			children = (
+				6DA59F3B221EA6AF004C7B8D /* categories.json */,
+			);
+			path = jsons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
