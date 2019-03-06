@@ -47,6 +47,6 @@ class alter_date_format: NSObject {
         let resultMM = mm < 10 ? "0" + String(mm) : String(mm)
         let resultSS = ss < 10 ? "0" + String(ss) : String(ss)
         
-        return resultHH + ":" + resultMM + ":" + resultSS
+        return String(format: "%@:%@:%@", resultHH, resultMM, resultSS)
     }
 }

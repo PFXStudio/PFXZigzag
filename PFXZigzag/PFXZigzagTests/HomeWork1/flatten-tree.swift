@@ -32,10 +32,6 @@ class flatten_tree: NSObject {
 
     }
     
-    class Info: NSObject {
-        var key = ""
-    }
-    
     public func solution(_ dict: Dictionary<String, AnyObject>) -> [String] {
         var results = [String]()
         for key in dict.keys {
@@ -43,32 +39,30 @@ class flatten_tree: NSObject {
                 return []
             }
             
-            let parentInfo = Info()
-            parentInfo.key = key
-            self.recursive(parentInfo: parentInfo, dict: childDict, results:&results)
+            let parentKey = key
+            self.recursive(parentKey: parentKey, dict: childDict, results:&results)
         }
         
         return results.sorted() { $0 < $1 }
     }
     
-    func recursive(parentInfo: Info, dict: Dictionary<String, AnyObject>?, results: inout [String]) {
+    func recursive(parentKey: String, dict: Dictionary<String, AnyObject>?, results: inout [String]) {
         guard let childDict = dict else {
             // deps strings
-            results.append(parentInfo.key)
+            results.append(parentKey)
             return
         }
         
         if childDict.count <= 0 {
             // deps strings
-            results.append(parentInfo.key)
+            results.append(parentKey)
             return
         }
         
         for key in childDict.keys {
-            let info = Info()
-            info.key = parentInfo.key + " > " + key
+            let currentKey = parentKey + " > " + key
             let value = childDict[key]
-            recursive(parentInfo: info, dict: (value as! Dictionary<String, AnyObject>), results:&results)
+            recursive(parentKey: currentKey, dict: (value as! Dictionary<String, AnyObject>), results:&results)
         }
     }
 }

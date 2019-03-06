@@ -36,6 +36,8 @@ class ViewController: UIViewController {
     }
     
     override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
         self.loadingIndicatorView.isHidden = true
 
         let frame = self.legalButton.frame
@@ -77,6 +79,11 @@ class ViewController: UIViewController {
         }
         
         guard let password = self.passwordTextField.text else {
+            return
+        }
+        
+        if self.legalButton.isSelected == false {
+            print("need legal check!")
             return
         }
 
